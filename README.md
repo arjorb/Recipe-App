@@ -2,6 +2,4 @@
 
 application of recipe that assist in the kitchen, build using vanilla javascript
 
--list of recipe
--recipe information on click them
--favorite recipe (localstorage)
+- fetch list of recipe using api from free Meal API

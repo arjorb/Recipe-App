@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
 }
-
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
@@ -19,61 +18,17 @@ ul {
 img {
   max-width: 100%;
 }
-
 .mobile-container {
   width: 400px;
+  height: 450px;
   background: white;
   box-shadow: 0 0 10px 2px #3333331a;
   overflow: hidden;
   border-radius: 0.6rem;
 }
-
-header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 1rem;
-}
-
-
-
-header input {
-  border: none;
-  background: #f0eef6;
-  border-radius: 5px;
-  padding: 0.3rem 2rem;
-  outline: none;
-}
-header button {
-  background: transparent;
-  border: none;
-  color: #f0eef6;
-  font-size: 1.3rem;
-  margin-left: 0.5rem;
-}
-
 h3 {
   text-align: center;
 }
-.fav-meals {
-  display: flex;
-  justify-content: space-around;
-  /* text-align: center; */
-  padding: 0;
-}
-
-.fav-meals li {
-  display: flex;
-  flex-direction: column;
-}
-
-.fav-meals li img {
-  width: 70px;
-  height: 70px;
-  object-fit: cover;
-  border-radius: 50%;
-}
-
 .meal{
     margin: 1rem;
     border-radius: 10px;
@@ -83,21 +38,17 @@ h3 {
 .meal-header{
     position: relative;
 }
-
 .meal-header .random{
     position: absolute;
     background: rgba(255, 255, 255, 0.9);
     margin: 1rem;
     padding: 0.25rem 0.5rem;
 }
-
 .meal-header img{
-
     width: 100%;
-    height: 200px;
+    height: 300px;
     object-fit: cover;
 }
-
 .meal-body{
     display: flex;
     justify-content: space-between;
@@ -109,8 +60,4 @@ h3 {
     border: none;
     color: rgb(189, 189, 189);
     font-size: 1.2rem;
-    cursor: pointer;
-}
-.meal-body .fav-btn.active{
-    color: rebeccapurple;
 }
